@@ -1,1 +1,4 @@
-alert("hello");
+if (!ran) {
+  alert("hello");
+  ran = true;
+}
