@@ -1,4 +1,4 @@
-if (!ran) {
+if (!$("body").attr("ran")) {
   alert("hello");
-  ran = true;
+  $("body").attr("ran", true);
 }
